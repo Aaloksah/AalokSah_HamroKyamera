@@ -1,0 +1,258 @@
+/* Navbar*/
+
+body {
+  font-size: 13px;
+}
+.logo {
+  display: none;
+}
+.navigation-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+  position: absolute;
+}
+
+.logotext {
+  width: 60px;
+  margin-top: -16px;
+  border: 2px solid rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.menu {
+  margin-top: 8px;
+  margin-right: 0;
+}
+
+
+.menu ul li {
+  font-size: 14px;
+  padding: 3px;
+  height: 10px;
+}
+
+.menu :hover {
+  color: #ff5003;
+  background-color:none;
+  border-radius: none;
+
+}
+
+/* footer  */
+.footertop {
+  margin-left: -40px;
+}
+
+.footerbottom p {
+  font-size: 12px;
+}
+
+.sociallinks {
+  display: none;
+}
+
+.footertop p {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Home page  */
+
+.page1 {
+  display: block;
+  margin: 140px auto;
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.page2 {
+  margin-top: -200px;
+}
+
+.page3,
+.page4 {
+  margin-top: -10px;
+}
+
+.page2,
+.page3,
+.page4 {
+  display: block;
+  width: 100%;
+  height: 500px;
+}
+
+.texts {
+  margin-top: 150px;
+}
+
+.texts p {
+  font-size: 12px;
+}
+.cameravector {
+  display: none;
+}
+
+.button {
+  width: 130px;
+  height: 35px;
+}
+
+.button a {
+  font-size: 14px;
+}
+
+/* Product Page  */
+
+.slider,
+.downArrow {
+  display: none;
+}
+
+.product {
+  width: 150px;
+  height: 260px;
+  margin: 15px 5px;
+}
+
+.p-text h3 {
+  font-size: 12px;
+  margin-top: -22px;
+}
+
+.buynowbutton {
+  width: 109px;
+  height: 27px;
+  border-radius: 5px;
+}
+.product a img {
+  width: 80px;
+  margin-left: 0px;
+}
+
+.gimble .product .p-img a img {
+  width: 40%;
+}
+
+.gimble .product{
+  width: 150px;
+  height: 350px;
+}
+
+.lens .product .p-img a img {
+  width: 60%;
+}
+
+.lens .product{
+  width: 150px;
+  height: 350px;
+}
+/* Product info page  */
+
+.related-products {
+  display: none;
+}
+
+.current-product-details {
+  flex-direction: column;
+}
+
+.specs-table{
+  width: 60%;
+}
+
+.product-all-specs{
+  width: 300px;
+}
+
+.product-specs{
+  width: 300px;
+}
+
+
+/* Blog page  */
+
+.blog-page {
+  margin-top: 200px;
+}
+.center {
+  text-align: justify;
+  width: 90%;
+}
+
+.blog-paragraph {
+  width: 90%;
+  text-align: justify;
+}
+
+.blog-page img {
+  width: 90%;
+}
+
+.blog-title{
+  text-align: left;
+}
+
+/* Research page  */
+
+.Research_intro {
+  flex-direction: column;
+  margin-top: 200px;
+}
+
+.Research_intro p {
+  margin-top: 20px;
+}
+
+/* About us page  */
+
+.members {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.messagebox {
+  width: 270px;
+}
+
+.about_website {
+  margin-top: 176px;
+  width: 90%;
+}
+
+.about_website h3 {
+  font-size: 22px;
+}
+
+.members a {
+  width: 90%;
+}
+
+
+/* Individual portfolio page  */
+
+.details{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail {
+  width: 300px;
+}
+
+.profile_pic a img {
+  width: 250px;
+}
+
+.profile_pic img {
+  width: 250px;
+}
+
+.personal_detail{
+  width: 200px;
+}

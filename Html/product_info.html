@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Aalok Sah">
+    <meta name="description" content="Hamro Kyamera - an ecommerce camera selling website">
+    <meta name="keywords" content="camera, hamro kyamera, kyamera, camera, canon, sony">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Product Info</title>
+    <link rel="stylesheet" media="screen and (max-width: 1015px)" href="../CSS/Responsive.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="Icon" href="../Icons/Camera logo.png">
+    <style>
+        body {
+            background-color: #ffffff;
+            background-image: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- This is for Navigation Bar -->
+
+    <nav class="navigation-bar">
+        <img class="logo" src="../Icons/Camera logo.png">
+        <a href="#"><img src="../Icons/webiste logo.png" alt="our logo" width="100px" class="logotext"></a>
+        <div class="menu">
+            <ul reve>
+                <li><a href="About_Us_Page.html">About Us</a></li>
+                <li><a href="Research_page.html">Research's</a></li>
+                <li><a href="Blog_page.html">Blog</a></li>
+                <li class="activepage"><a href="Product_page.html">Product's</a></li>
+                <li><a href="../index.html">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- This is for Product details -->
+
+    <div class="current-product">
+        <div class="current-product-details">
+            <!-- Image of products -->
+            <div class="product_img">
+                <img src="../Icons/products image/cam1.jpg" id="img1" width="350px" alt="Cam Image"
+                    onmouseover="setNewImage();" onmouseout="setOldImage();">
+            </div>
+
+            <div class="product_details">
+                <!-- Name of products -->
+                <h2>Sony Alpha 7R IV Full Frame Mirrorless </h2>
+                <br>
+                <hr style="opacity: 50%;">
+                <!-- Price and discount percentage of products -->
+                <br>
+                <p class="product_price" style="font-size: 18px;"><span class="old-price">Rs. 150,000</span>&nbsp;
+                    Rs.
+                    142,222 <span class="offer">&nbsp; &nbsp; - 12% Discount<br></span>
+                    <br>
+                    <span style="color: rgba(0, 0, 0, 0.658); font-size: 14px;">Only few left in stock - order
+                        soon</span>
+                </p>
+                <!-- Buy and Add to card button -->
+                <ul>
+                    <li><button onclick="AvailableSoon()" class="buynowbutton" style="color: white; width: 200px; cursor: pointer;">Add
+                            to Cart</button></li>
+                    <li><button onclick="AvailableSoon()" class="buynowbutton" style="color: white; width: 200px; cursor: pointer;">Buy
+                            Now</button></li>
+                </ul>
+                <br>
+                <hr style="opacity: 50%;">
+                <br>
+                <!-- Product main features -->
+                <ul class="product_features">
+                    <li>World’s first 61MP full-frame back-illuminated Exmor R sensor</li>
+                    <li>15-stop dynamic range, 14-bit uncompressed RAW, ISO 50 to 102,400</li>
+                    <li>Up to 10fps continuous shooting at 61MP with AE/AF tracking</li>
+                    <li>Real-time Tracking and Real-time Eye AF for human, animal and movie</li>
+                    <li>5.76 million dot UXGA OLED Tru-Finder electronic viewfinder
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!-- Product detailed featuers -->
+        <div class="product-specs">
+            <div class="product-major-specs">
+                <h3>Product details of Canon Dslr Eos 5D Mark Iv(Ef 24-105Mm F/4L Is Ii Usm)Kit</h3>
+                <table class="specs-table">
+                    <tr>
+                        <td>30.4MP CMOS</td>
+                        <td>150,000 pixel metering sensor</td>
+                    </tr>
+                    <tr>
+                        <td>Dual Pixel RAW</td>
+                        <td>GPS</td>
+                    </tr>
+                    <tr>
+                        <td>Dual Pixel CMOS AF</td>
+                        <td>Wi-Fi / NFC</td>
+                    </tr>
+                    <tr>
+                        <td>7 frame per second</td>
+                        <td>EOS Movie 4K + Full HD</td>
+                    </tr>
+                </table>
+
+            </div>
+            <br>
+            <hr style="opacity: 50%;">
+            <div class="product-all-specs">
+                <ul>
+                    <li style="font-weight: bolder;">Image Sensor</li>
+                    <li>Type</li>
+                    <li>Effective Pixels</li>
+                    <li>Approx. 30.4 megapixels</li>
+                    <li>Total Pixels</li>
+                    <li>Low-Pass Filter</li>
+                    <li>Built-in/Fixed</li>
+                    <li>Sensor Cleaning</li>
+                    <li style="font-weight: bolder;">Image</li>
+                    <li>Type</li>
+                    <li>DIGIC 6+</li>
+                    <li style="font-weight: bolder;">Lens</li>
+                    <li>Lens Mount</li>
+                    <li>EF (excludes EF-S / EF-M lenses)</li>
+                    <li>Focal length</li>
+                    <li>Equivalent to 1.0x the focal length of the lens</li>
+                    <li>AI Focus</li>
+                    <li>AI Servo AF</li>
+
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- This is for Related Product Section -->
+
+    <div class="related-products">
+        <div class="related-product">
+            <a href="Product_page.html">
+                <img src="../Icons/products image/cam2.jpg" class="img_onhover" width="150px" alt="Camera">
+                <!-- Name and price of suggested product -->
+                <h4>Canon EOS R5</h4>
+                <p>Rs. 200,000</p>
+
+            </a>
+        </div>
+        <div class="related-product">
+            <a href="Product_page.html">
+                <img src="../Icons/products image/cam3.jpg" class="img_onhover" width="150px" alt="Camera">
+                <!-- Name and price of suggested product -->
+                <h4>Nikon D850</h4>
+                <p>Rs. 150,000</p>
+            </a>
+        </div>
+        <div class="related-product">
+            <a href="Product_page.html">
+                <img src="../Icons/products image/cam4.jpg" class="img_onhover" width="150px" alt="Camera">
+                <!-- Name and price of suggested product -->
+                <h4>Sony A7 III</h4>
+                <p>Rs.250,000</p>
+            </a>
+        </div>
+        <div class="related-product">
+            <a href="Product_page.html">
+                <img src="../Icons/products image/cam5.jpg" class="img_onhover" width="150px" alt="Camera">
+                <!-- Name and price of suggested product -->
+                <h4>Fujifilm X-T4</h4>
+                <p>Rs. 80,000</p>
+            </a>
+        </div>
+        <div class="related-product">
+            <a href="#">
+                <img src="../Icons/products image/cam6.jpg" class="img_onhover" width="150px" alt="Camera">
+                <!-- Name and price of suggested product -->
+                <h4>Panasonic Lumix GH5</h4>
+                <p>Rs. 130,000</p>
+            </a>
+        </div>
+        <div class="related-product">
+            <a href="Product_page.html">
+                <img src="../Icons/products image/lens5.png" class="img_onhover" width="150px" alt="Camera">
+                <!-- Name and price of suggested product -->
+                <h4>Fuji Lens</h4>
+                <p>Rs. 25,000</p>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <footer>
+            <div class="footertop">
+                <div class="footercontent"><a href="../index.html">
+                        <h2 style="color: white;"><span style="color: #ff5003;"> Hamro</span> Kyamera</h2>
+                    </a>
+                    <p>Hamro Kyamera is an e-commerce website for camera equipments and accessories. We are the #1
+                        retailer of this category with 100% customer satisfactory outcomes.</p>
+                </div>
+                <div class="sociallinks">
+                    <a href="https://www.facebook.com/aalok5hah" target="_blank"><img src="../Icons/facebook.png"
+                            alt="Facebook" width="40px"></a>
+                    <a href="https://www.instagram.com/aalok_5hah/" target="_blank"><img src="../Icons/insta.png"
+                            alt="Instagram" width="40px"></a>
+                </div>
+
+
+            </div>
+
+            <div class="footerbottom">
+                <p>copyright &copy;2023 HamroKyamera. Designed by Aalok Shah</p>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- Linking JS -->
+    <script src="../JavaScript/script.js"></script>
+
+</body>
+
+<script>
+    // This internal css for Alert Messages
+    function AvailableSoon() {
+        alert("This feature will be available soon!");
+    }
+</script>
+
+
+
+</html>

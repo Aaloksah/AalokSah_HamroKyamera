@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="author" content="Aalok Sah">
+    <meta name="description" content="Hamro Kyamera - an ecommerce camera selling website">
+    <meta name="keywords" content="camera, hamro kyamera, kyamera, camera, canon, sony">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Us</title>
+    <!-- Linking Exteral css -->
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="Icon" href="../Icons/Camera logo.png">
+    <link rel="stylesheet" media="screen and (max-width: 1015px)" href="../CSS/Responsive.css">
+    <!-- Internal CSS -->
+    <style>
+        /* Internal Css for this page only */
+        a {
+            color: black;
+        }
+
+        .footer {
+            /* To move footer little below from form page */
+            margin-top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- This is navigation bar -->
+
+    <nav class="navigation-bar">
+        <img class="logo" src="../Icons/Camera logo.png">
+        <a href="#"><img src="../Icons/webiste logo.png" alt="our logo" width="100px" class="logotext"></a>
+        <div class="menu">
+            <ul reve>
+                <li class="activepage"><a href="About_Us_Page.html">About Us</a></li>
+                <li><a href="Research_page.html">Research's</a></li>
+                <li><a href="Blog_page.html">Blog</a></li>
+                <li><a href="Product_page.html">Product's</a></li>
+                <li><a href="../index.html">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- This is for Description of Website -->
+    <div class="about_website">
+        <!-- Heading -->
+        <h3 style="color:#ff4f03;">About Us</h3> <br>
+        <!-- Information about website -->
+        <p style="opacity: 90%; text-align: justify;"><span
+                style="color: #ff4f03; font-size:20px; font-weight: bolder;">Hamro Kyamera</span>
+            is an ecommerce website based in Kathmandu, Nepal that specializes in
+            selling cameras and camera equipment. The website is designed to cater to the needs of photography
+            enthusiasts and professionals who are looking to purchase high-quality cameras, lenses, tripods, lighting
+            equipment, and other camera accessories. <br> <br>
+
+            The website is built and managed by Aalok Sah who study at Islington College. He is
+            passionate about coding and web-designing and have put in a lot of effort to ensure that the website is
+            user-friendly,
+            informative, and easy to navigate. <br> <br>
+
+            Customers can browse through the website to find a wide range of products from popular brands such as Canon,
+            Nikon, Sony, and more. The website also provides detailed product descriptions, specifications, and customer
+            reviews to help users make informed decisions when purchasing their desired products. <br> <br>
+
+            Hamro Kyamera offers a convenient and secure online shopping experience, with easy payment options and fast
+            delivery services. The company's focus on customer satisfaction is evident through its responsive customer
+            support team that is available to answer any queries or concerns that customers may have.</p>
+    </div>
+    <br> <br><br>
+    <hr style="opacity: 70%;"> <!-- Line for Dividing -->
+    <br>
+
+    <!-- Photo and basic Information of Team member -->
+    <h3 style="color:#ff4f03; text-align: center;">Website Built By,</h3>
+    <!-- Main Div -->
+    <div class="members">
+        
+        <!-- Container for individual Team member -->
+        <a href="Individual_Portfolio_Aalok.html">
+            <div class="individual_members">
+                <!-- Image of Team  -->
+                <img class="img_onhover" src="../Icons/Team Photo/Aalok Sah.jpg" width="180px" alt="P=Human Picture">
+                <h3>Aalok Sah</h3>
+                <p>Team Leader</p>
+                <p>me.aaloksah@gmail.com</p>
+            </div>
+        </a>
+    </div>
+    <br>
+    <hr style="opacity: 70%;">
+
+    <!-- This is feedback Form -->
+    <div class="feedback">
+
+        <form name="feedback_form" class="feedback_form">
+            <h3 style="color: #ff4f03;">Give us your valuable feedback :)</h3> <br>
+            <label for="f_Name">First Name: </label>
+            <input type="text" name="fname" placeholder="Your Lastname">
+            <label for="l_Name">Last Name: </label>
+            <input type="text" name="lname" placeholder="Your Firstname">
+            <label for="Age">Age: </label>
+            <input type="number" name="age" placeholder="Your age">
+            <label for="Email">Enter your Email: </label>
+            <input type="email" name="email" placeholder="example@gmail.com">
+            <label for="feedback_message">Write your message here:</label>
+            <textarea class="messagebox" name="message" placeholder="Enter your message here.." rows="6" cols="120"></textarea>
+            <!-- Submit Button -->
+            <input onclick="FormValidation()" class="submit_button" type="button" value="Submit" style="cursor: pointer;">
+        </form>
+    </div>
+
+    <!-- This is Footer -->
+    <div class="footer">
+        <footer>
+            <div class="footertop">
+                <div class="footercontent"><a href="#">
+                        <h2 style="color: white;"><span style="color: #ff5003;"> Hamro</span> Kyamera</h2>
+                    </a>
+                    <p>Hamro Kyamera is an e-commerce website for camera equipments and accessories. We are the #1
+                        retailer of this category with 100% customer satisfactory outcomes.</p>
+                </div>
+                <div class="sociallinks">
+                    <a href="https://www.facebook.com/aalok5hah" target="_blank"><img src="../Icons/facebook.png"
+                            alt="Facebook" width="40px"></a>
+                    <a href="https://www.instagram.com/aalok_5hah/" target="_blank"><img src="../Icons/insta.png"
+                            alt="Instagram" width="40px"></a>
+                </div>
+
+
+            </div>
+
+            <div class="footerbottom">
+                <p>copyright &copy;2023 HamroKyamera. Designed by Aalok Shah</p>
+            </div>
+
+        </footer>
+    </div>
+
+    <!-- Linking external JavaScript -->
+    <script src="../JavaScript/script.js"></script>
+</body>
+
+</html>

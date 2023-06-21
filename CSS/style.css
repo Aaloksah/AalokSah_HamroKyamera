@@ -1,0 +1,746 @@
+html {
+
+    scroll-behavior: smooth;
+    /*This is for smooth page scrolling*/
+}
+
+
+
+/* This is styling of all the components */
+* {
+    padding: 0;
+    margin: 0;
+    /* Applying font */
+    font-family: 'Poppins Medium', Verdana, sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    /* Body background color */
+    background-color: #ffffff;
+
+}
+
+/* This of for navigation bar of the page */
+.navigation-bar {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #2f2f2f;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 75px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.logotext {
+    display: inline-block;
+    margin-top: -9px;
+    margin-left: -15px;
+    padding: 0px;
+
+}
+
+.navigation-bar ul li {
+    float: right;
+    list-style: none;
+    padding: 20px;
+}
+
+.menu {
+    float: right;
+    margin-top: 8.25px;
+    margin-right: 30px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: #F4EEE0;
+    padding: 20px 4px;
+}
+
+.menukeys {
+    display: inline-block;
+}
+
+/* Hover effect for Navigation bar */
+.menu :hover {
+    color: #ff5003;
+    background-color: #434242;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+
+}
+
+/* Change color of the currently opened page-name on navigation bar */
+.activepage a {
+    color: #ff5003;
+}
+
+
+/* ------------------------------------------------------------This is for Home Page--------------------------------------------------------------------------- */
+
+
+/* This is for all sections with different background images */
+.page1 {
+    /* Bg image */
+    background-image: url(../Icons/productpage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 730px;
+    width: 100%;
+}
+
+.page2 {
+    background-image: url(../Icons/blogpage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 730px;
+    width: 100%;
+}
+
+.page3 {
+    background-image: url(../Icons/research\ page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 730px;
+    width: 100%;
+}
+
+.page4 {
+    background-image: url(../Icons/aboutus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 730px;
+    width: 100%;
+}
+
+/* This is for the content inside Page1,2,3 and 4  */
+.pagecontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.texts {
+    width: 80%;
+    margin-top: 0px;
+    margin-left: 0px;
+    color: white;
+    text-align: center;
+}
+
+.texts p {
+    margin-top: -15px;
+    margin-bottom: 5px;
+    font-family: 'poppins light', sans-serif;
+}
+
+.pagecontent h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+
+/* Style for the button of Home Page */
+.button {
+    margin-top: 5px;
+    background-color: rgba(155, 83, 83, 0);
+    border: 3px solid #ff5003;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+
+/* Hover effect of button */
+.button:hover {
+    background-color: #ff4f03;
+    transition: all 0.3s ease 0s;
+    border: 2px solid rgb(0, 0, 0);
+    color: #000000;
+}
+
+.button a:hover {
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+
+.highlights {
+    color: #ff4f03;
+}
+
+
+/* This is for footer */
+
+footer {
+    background: #111;
+    padding-top: 40px;
+}
+
+.footertop h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footertop p {
+    color: rgba(255, 255, 255, 0.511);
+    line-height: 28px;
+    font-size: 14px;
+    width: 50%;
+}
+
+.footerbottom {
+    background: #000;
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footerbottom p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.822);
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+
+.footercontent {
+    display: inline-block;
+    margin-left: 60px;
+    margin-bottom: 45px;
+
+}
+
+/* This is for clickable social icons */
+.sociallinks {
+    display: flex;
+    width: 155px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+
+.sociallinks a img {
+    margin-left: 20px;
+}
+
+
+
+
+/*---------------------------------------------------------------------------------------- Product page------------------------------------------------------------------------ */
+
+#imageslider {
+    margin-top: 60px;
+}
+
+/*  This is for image slider Div */
+.slider {
+    margin-top: 60px;
+    margin-right: 30px;
+    padding: 50px;
+    box-sizing: border-box;
+    overflow: hidden;
+    transform: scale(0.9);
+
+}
+
+.downArrow {
+    position: absolute;
+    top: 690px;
+    right: 48%;
+
+}
+
+
+/* This is for all the products */
+
+/* Main Div for product section */
+.container {
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+/* Header for product Category */
+.product_category {
+    height: 40px;
+    padding: 8px;
+    background-color: #43424230;
+    margin-bottom: 20px;
+}
+
+/* Main div for products of particular category */
+.product-collection {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* For all individial products */
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.164);
+    margin: 20px 10px;
+    transition: all .2s ease-in-out;
+}
+
+/*Product Image*/
+.product a img {
+    margin-left: 60px;
+}
+
+/*for pricing and discoint text */
+.product-text {
+    color: black;
+    text-align: center;
+}
+
+/* Product Name */
+.p-text {
+    margin-top: 30px;
+}
+
+.price {
+    color: rgb(0, 0, 0);
+    width: auto;
+    border-radius: 10px;
+}
+
+.old-price {
+    color: rgba(0, 0, 0, 0.692);
+    text-decoration: line-through;
+}
+
+.offer {
+    color: red;
+}
+
+/* For buy now button and add to cart buttons  */
+.buynowbutton {
+    width: 300px;
+    height: 35px;
+    border: none;
+    margin-top: 10px;
+    background-color: #ff5003;
+
+
+}
+
+.buynowbutton a {
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+}
+
+/* Hover effect for Buy now and Add to Cart Buttons */
+.buynowbutton:hover {
+    background-color: gray;
+    transition: all .3s ease;
+}
+
+/* Hover effect for products */
+.product:hover {
+    transform: scale(1.06);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.425);
+    border: none;
+
+}
+
+/* This is for page number section */
+.productpagenum {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 15px 17px;
+
+}
+
+.productpagenum ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.productpagenum ul li {
+    background-color: #ff5003;
+    width: 40px;
+    padding: 8px;
+    text-align: center;
+    margin: 5px 10px;
+}
+
+.productpagenum ul li a {
+    color: rgb(255, 255, 255);
+}
+
+.productpagenum ul li:hover {
+    background-color: gray;
+    color: white;
+
+}
+
+
+/* -------------------------------------------------------------- Css for product info page ------------------------------------------------------------------------------- */
+
+/* For main product */
+.current-product {
+    width: 70%;
+}
+
+.current-product {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 150px;
+    margin-left: 60px;
+    height: 1100px;
+}
+
+.current-product-details {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.product_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    border: 2px solid rgba(0, 0, 0, 0.253);
+    padding: 25px;
+    margin-top: -8px;
+    cursor: pointer;
+}
+
+.product_details {
+    margin-left: 30px;
+}
+
+.product_details ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.product_price {
+    padding: 10px;
+    line-height: 12px;
+}
+
+.product_features {
+    line-height: 40px;
+}
+
+.product_detailed_info {
+    display: flex;
+    width: 800px;
+}
+
+/* Important feature of products */
+.product_features {
+    width: 600px;
+}
+
+/* For other suggested and reated products */
+.related-products {
+    width: 20%;
+    height: 1165px;
+    position: absolute;
+    top: 75px;
+    right: 70px;
+    border: 2px solid rgba(128, 128, 128, 0.578);
+}
+
+/* For individual product of related products section */
+.related-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 10px;
+}
+
+/* Main specs section */
+.product-major-specs {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.product-major-specs table {
+    margin-top: 10px;
+    width: 600px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 6px;
+}
+
+/* Detailed specs of product */
+.product-all-specs ul {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+/* Product image pop when hover */
+.img_onhover {
+    transition: all .2s ease-in-out;
+}
+
+.img_onhover:hover {
+    transform: scale(1.1);
+
+}
+
+/* Name of suggested products */
+.related-product h4 {
+    color: black;
+
+}
+
+/* Price of suggested products */
+.related-product p {
+    color: #ff4f03;
+}
+
+
+/* -------------------------------------------------- About Us Page  ---------------------------------------------------------------------------- */
+
+/* Maind div */
+.members {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* Image of individual Member */
+.individual_members img {
+    /* To make image round */
+    border-radius: 100%;
+    border: 5px solid #ff4f03;
+    box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.191);
+    transition: all .2s ease-in-out;
+    margin-bottom: 10px;
+}
+
+.individual_members p {
+    /* Decrease opacity of p text */
+    opacity: 80%;
+}
+
+/* Main div for individual members */
+.individual_members {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 60px;
+}
+
+/* MAin div for about website description  */
+.about_website {
+    /* Center the div */
+    margin: 140px auto 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+/* Main div for Feedback form */
+.feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Name of form */
+.feedback_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: 8px 8px 15px 10px rgba(0, 0, 0, 0.064);
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    padding: 30px 50px;
+}
+
+/* Input boxex */
+.feedback_form input,
+.feedback_form textarea {
+    padding: 5px;
+    margin: 7px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.139);
+}
+
+/* Text above input boxex */
+.feedback_form label {
+    color: rgb(0, 0, 0);
+    font-weight: 20;
+    margin: 8px;
+}
+
+/* Submit Button */
+.submit_button {
+    background-color: #ff4f03;
+    color: white;
+    font-size: 15px;
+    border: none;
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+}
+
+/* -------------------------------------------------- Individual Portfolio Page ------------------------------------------------------------- */
+
+
+/* This is for portfolio main image */
+.personal_portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 165px;
+}
+
+
+
+/* Main div for details */
+.details {
+    display: flex;
+    width: 90%;
+    text-align: center;
+}
+
+/* List for member details */
+.details ul {
+    list-style: none;
+}
+
+/* Detail of certail Category */
+.detail {
+    width: 700px;
+    padding: 10px 20px;
+}
+
+/*------------------------------------------------------------Research Page---------------------------------------------------------------------*/
+
+/* For intriduction part of research page */
+.Research_intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    text-align: center;
+    width: 95%;
+}
+
+/* For paragraph of introduction part */
+.Research_intro p {
+    width: 90%;
+    text-align: justify;
+    line-height: 1.7;
+    opacity: 85%;
+}
+
+/* Main div of comparasion section */
+.design_compare,
+.design_compare a {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* For screenshot image */
+.screenshot {
+    margin: 30px 0px;
+    padding: 5px;
+    box-shadow: 10px 10px 20px #00000034;
+}
+
+/* For description which desribe the comparasion detail  */
+.research_info {
+    width: 80%;
+    text-align: justify;
+}
+
+/* ----------------------------------------------------------- Blog Page -------------------------------------------------------------------- */
+
+/* Main div of blog page */
+.blog-page {
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Image of blog page  */
+.blog-page img {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.167);
+    margin: 40px 0px;
+}
+
+/* Paragraph tag of blog page  */
+.blog-paragraph {
+    margin-top: 10px;
+    width: 75%;
+    text-align: justify;
+}
+
+/* Titles */
+.blog-title {
+    color: #ff4f03;
+    font-size: 22px;
+
+}
