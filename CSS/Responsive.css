@@ -11,13 +11,13 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 120px;
+  height: 130px;
   position: absolute;
 }
 
 .logotext {
   width: 60px;
-  margin-top: -16px;
+  margin-top: 0px;
   border: 2px solid rgb(255, 255, 255);
   padding: 5px;
   border-radius: 100%;
@@ -32,14 +32,17 @@ body {
 .menu ul li {
   font-size: 14px;
   padding: 3px;
-  height: 10px;
+  
+}
+
+.navigation-bar ul li {
+  padding: 0px;
 }
 
 .menu :hover {
   color: #ff5003;
   background-color:none;
   border-radius: none;
-
 }
 
 /* footer  */
@@ -108,13 +111,16 @@ body {
 
 /* Product Page  */
 
+.container{
+  margin-top: 140px;
+}
 .slider,
 .downArrow {
   display: none;
 }
 
 .product {
-  width: 150px;
+  width: 180px;
   height: 260px;
   margin: 15px 5px;
 }
@@ -135,11 +141,11 @@ body {
 }
 
 .gimble .product .p-img a img {
-  width: 40%;
+  width: 50%;
 }
 
 .gimble .product{
-  width: 150px;
+  width: 180px;
   height: 350px;
 }
 
@@ -148,7 +154,7 @@ body {
 }
 
 .lens .product{
-  width: 150px;
+  width: 180px;
   height: 350px;
 }
 /* Product info page  */
@@ -177,7 +183,7 @@ body {
 /* Blog page  */
 
 .blog-page {
-  margin-top: 200px;
+  margin-top: 160px;
 }
 .center {
   text-align: justify;
@@ -201,7 +207,7 @@ body {
 
 .Research_intro {
   flex-direction: column;
-  margin-top: 200px;
+  margin-top: 150px;
 }
 
 .Research_intro p {
@@ -220,7 +226,7 @@ body {
 }
 
 .about_website {
-  margin-top: 176px;
+  margin-top: 150px;
   width: 90%;
 }
 
