@@ -121,23 +121,22 @@ body {
 
 .product {
   width: 260px;
-  height: 320px;
+  height: 345px;
   margin: 15px 5px;
 }
 
-
 .p-text h3 {
-  font-size: 12px;
+  font-size: 14px;
   margin-top: -22px;
 }
 
 .buynowbutton {
-  width: 109px;
-  height: 27px;
+  width: 112px;
+  height: 30px;
   border-radius: 5px;
 }
 .product a img {
-  width: 80px;
+  width: 119px;
   margin-left: 0px;
 }
 
@@ -146,17 +145,17 @@ body {
 }
 
 .gimble .product{
-  width: 180px;
-  height: 350px;
+  width: 260px;
+  height: 345px;
 }
 
 .lens .product .p-img a img {
-  width: 60%;
+  width: 50%;
 }
 
 .lens .product{
-  width: 180px;
-  height: 350px;
+  width: 260px;
+  height: 345px;
 }
 /* Product info page  */
 
