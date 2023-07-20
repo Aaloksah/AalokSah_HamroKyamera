@@ -120,10 +120,11 @@ body {
 }
 
 .product {
-  width: 180px;
-  height: 260px;
+  width: 260px;
+  height: 320px;
   margin: 15px 5px;
 }
+
 
 .p-text h3 {
   font-size: 12px;
